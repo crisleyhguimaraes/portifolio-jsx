@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# Portfólio Pessoal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um portfólio moderno e responsivo construído com React, apresentando projetos e habilidades profissionais.
 
-## Available Scripts
+## 🚀 Funcionalidades
 
-In the project directory, you can run:
+-   Design moderno e responsivo
+-   Modo claro/escuro
+-   Animações suaves
+-   Otimizado para SEO
+-   Acessibilidade melhorada
+-   Tratamento de erros robusto
+-   Carregamento otimizado
+-   Navegação intuitiva
 
-### `npm start`
+## 🛠️ Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   React 18
+-   CSS Moderno (Variáveis CSS, Flexbox, Grid)
+-   React Helmet para SEO
+-   ESLint para qualidade de código
+-   Animações com CSS e Intersection Observer
+-   Design System próprio
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Instalação
 
-### `npm test`
+1. Clone o repositório:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/seu-usuario/portifolio-jsx.git
+```
 
-### `npm run build`
+2. Instale as dependências:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd portifolio-jsx
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Inicie o servidor de desenvolvimento:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+## 🔧 Scripts Disponíveis
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-   `npm start`: Inicia o servidor de desenvolvimento
+-   `npm build`: Cria a versão de produção
+-   `npm test`: Executa os testes
+-   `npm run lint`: Verifica o código com ESLint
+-   `npm run lint:fix`: Corrige automaticamente problemas de linting
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎨 Estrutura do Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+src/
+  ├── components/
+  │   ├── common/
+  │   │   ├── AnimateOnScroll/
+  │   │   ├── ErrorBoundary/
+  │   │   ├── Loading/
+  │   │   ├── SEO/
+  │   │   ├── ScrollToTop/
+  │   │   └── ThemeToggle/
+  │   ├── about/
+  │   ├── contact/
+  │   ├── experience/
+  │   ├── footer/
+  │   ├── header/
+  │   ├── nav/
+  │   ├── portfolio/
+  │   └── services/
+  ├── context/
+  │   └── ThemeContext/
+  ├── styles/
+  │   └── theme.js
+  ├── App.jsx
+  └── index.js
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🌟 Melhorias Implementadas
 
-## Learn More
+### Visual
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   Sistema de temas claro/escuro
+-   Animações suaves e responsivas
+-   Design moderno e clean
+-   Melhor hierarquia visual
+-   Tipografia otimizada
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Código
 
-### Code Splitting
+-   ESLint configurado
+-   Componentes reutilizáveis
+-   Tratamento de erros
+-   Otimização de performance
+-   SEO aprimorado
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### UX/UI
 
-### Analyzing the Bundle Size
+-   Feedback visual aprimorado
+-   Navegação intuitiva
+-   Loading states
+-   Scroll suave
+-   Botão "Voltar ao topo"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📱 Responsividade
 
-### Making a Progressive Web App
+O site é totalmente responsivo e se adapta a diferentes tamanhos de tela:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-   Desktop (1024px+)
+-   Tablet (768px - 1023px)
+-   Mobile (até 767px)
 
-### Advanced Configuration
+## 🔍 SEO
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Otimizado para motores de busca com:
 
-### Deployment
+-   Meta tags dinâmicas
+-   Open Graph tags
+-   Twitter Cards
+-   Sitemap
+-   Robots.txt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ♿ Acessibilidade
 
-### `npm run build` fails to minify
+-   ARIA labels
+-   Navegação por teclado
+-   Contraste adequado
+-   Textos alternativos
+-   Estrutura semântica
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👤 Autor
+
+Seu Nome
+
+-   GitHub: [@seu-usuario](https://github.com/seu-usuario)
+-   LinkedIn: [Seu Nome](https://linkedin.com/in/seu-usuario)
+-   Email: seu.email@exemplo.com
