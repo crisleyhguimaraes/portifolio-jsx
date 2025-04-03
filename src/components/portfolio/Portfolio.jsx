@@ -64,6 +64,7 @@ const Portfolio = () => {
                                     href={github}
                                     className="btn"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     Github
                                 </a>
